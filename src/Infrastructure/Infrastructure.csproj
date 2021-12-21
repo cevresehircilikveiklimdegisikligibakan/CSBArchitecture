@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSB.Core.Infrastructure" Version="0.8.1" />
+    <PackageReference Include="CSB.Core.Utilities.Caching.Redis" Version="0.8.1" />
+    <PackageReference Include="CSB.Core.Utilities.Logging" Version="0.8.1" />
+    <PackageReference Include="CSB.Core.Utilities.MessageBroking.RabbitMQ" Version="0.8.1" />
+    <PackageReference Include="CSB.Core.Utilities.Security.JWT" Version="0.8.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj" />
+  </ItemGroup>
+
+</Project>
